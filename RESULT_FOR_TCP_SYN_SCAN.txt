@@ -1,0 +1,272 @@
+RESULT FOR TCP SYN SCAN.....
+
+PS C:\Users\prade> nmap -sS 192.168.1.0/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-26 16:15 India Standard Time
+Nmap scan report for jiofiber.local.html (192.168.1.1)
+Host is up (0.0037s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 7C:BF:77:03:85:16 (Speedtech)
+
+Nmap scan report for 192.168.1.8
+Host is up (0.0050s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: A0:BD:1D:E6:D1:35 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0050s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+8899/tcp open  ospf-lite
+MAC Address: 00:12:17:FE:F4:99 (Cisco-Linksys)
+
+Nmap scan report for SetTopBox-0944.lan (192.168.1.60)
+Host is up (0.011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+2875/tcp open  dxmessagebase2
+MAC Address: 68:B9:C2:EE:75:AC (Earda Technologies)
+
+Nmap scan report for 192.168.1.88
+Host is up (0.0045s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+MAC Address: 5A:58:CA:CA:33:23 (Unknown)
+
+Nmap scan report for 192.168.1.93
+Host is up (0.0042s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+MAC Address: 5A:58:28:08:58:7F (Unknown)
+
+Nmap scan report for 192.168.1.101
+Host is up (0.015s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE SERVICE
+23/tcp    open  telnet
+80/tcp    open  http
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi
+5000/tcp  open  upnp
+49152/tcp open  unknown
+MAC Address: 3C:EF:8C:D8:E4:B5 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.102
+Host is up (0.0092s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: C4:79:05:41:CE:44 (Zhejiang Uniview Technologies)
+
+Nmap scan report for 192.168.1.104
+Host is up (0.035s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi
+5000/tcp  open  upnp
+49152/tcp open  unknown
+MAC Address: 3C:EF:8C:D8:E6:71 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.109
+Host is up (0.0049s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi
+5000/tcp  open  upnp
+49152/tcp open  unknown
+MAC Address: 3C:EF:8C:D8:E5:35 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.111
+Host is up (0.0053s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+8899/tcp open  ospf-lite
+MAC Address: 00:12:17:C5:55:20 (Cisco-Linksys)
+
+Nmap scan report for 192.168.1.112
+Host is up (0.0053s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+8899/tcp open  ospf-lite
+MAC Address: 00:12:17:C2:99:BB (Cisco-Linksys)
+
+Nmap scan report for 192.168.1.113
+Host is up (0.0089s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE SERVICE
+23/tcp    open  telnet
+80/tcp    open  http
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi
+5000/tcp  open  upnp
+49152/tcp open  unknown
+MAC Address: 3C:EF:8C:8C:BE:E9 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.115
+Host is up (0.0047s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8000/tcp open  http-alt
+8899/tcp open  ospf-lite
+MAC Address: 00:12:17:C2:6B:36 (Cisco-Linksys)
+
+Nmap scan report for 192.168.1.116
+Host is up (0.0080s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8086/tcp open  d-s-n
+MAC Address: B4:4C:3B:65:CE:73 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.117
+Host is up (0.0070s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: C4:79:05:3A:B4:E0 (Zhejiang Uniview Technologies)
+
+Nmap scan report for 192.168.1.161
+Host is up (0.0043s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: 6C:F1:7E:DC:28:2C (Zhejiang Uniview Technologies)
+
+Nmap scan report for 192.168.1.163
+Host is up (0.0044s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+8000/tcp open  http-alt
+9101/tcp open  jetdirect
+MAC Address: 00:9A:1F:14:2E:73 (Unknown)
+
+Nmap scan report for 192.168.1.165
+Host is up (0.0045s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8086/tcp open  d-s-n
+MAC Address: 90:6A:94:6F:25:2D (hangzhou huacheng network technology)
+
+Nmap scan report for 192.168.1.172
+Host is up (0.0041s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi
+5000/tcp  open  upnp
+49152/tcp open  unknown
+MAC Address: 3C:EF:8C:D8:E6:E7 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.210
+Host is up (0.012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8086/tcp open  d-s-n
+MAC Address: B4:4C:3B:B2:48:33 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.221
+Host is up (0.0049s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+554/tcp  open  rtsp
+3800/tcp open  pwgpsi
+5000/tcp open  upnp
+MAC Address: 3C:EF:8C:05:3E:93 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.233
+Host is up (0.0079s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8086/tcp open  d-s-n
+MAC Address: 3C:E3:6B:D0:9E:E3 (Zhejiang Dahua Technology)
+
+Nmap scan report for Pradeep-s-S23-Ultra.lan (192.168.1.234)
+Host is up (0.0047s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+9080/tcp filtered glrpc
+MAC Address: 96:FE:31:2B:70:BD (Unknown)
+
+Nmap scan report for 192.168.1.235
+Host is up (0.0066s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE SERVICE
+23/tcp    open  telnet
+80/tcp    open  http
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi
+5000/tcp  open  upnp
+49152/tcp open  unknown
+MAC Address: 90:02:A9:5B:AB:BB (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.242
+Host is up (0.0067s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8086/tcp open  d-s-n
+MAC Address: E4:24:6C:96:27:23 (Zhejiang Dahua Technology)
+
+Nmap scan report for 192.168.1.244
+Host is up (0.045s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+554/tcp  open  rtsp
+8086/tcp open  d-s-n
+MAC Address: B4:4C:3B:65:ED:77 (Zhejiang Dahua Technology)
+
+Nmap scan report for Osuvax.lan (192.168.1.162)
+Host is up (0.000039s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+903/tcp open  iss-console-mgr
